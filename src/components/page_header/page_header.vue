@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .page_header{
   background-color: #3f6c45;
   height: 10vh;
@@ -44,4 +44,19 @@ export default {
   cursor: pointer;
 }
 
+
+//mobile
+@media (max-width: 480px) {
+  .page_header{
+    justify-content: center;
+  }
+
+  .codename{
+    font-size: 25px;
+  }
+
+  .page_name{
+    display: none;
+  }
+}
 </style>

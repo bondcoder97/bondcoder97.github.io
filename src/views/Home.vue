@@ -46,10 +46,16 @@ export default {
 
 ul{
   list-style-type: square;
-  margin-left: 3%;
+  padding-left: 2%;
 }
 
 .page_link{
   cursor: pointer;
+
+  &:hover{
+    border-style: dashed;
+  }
 }
+
+@import "@/assets/styles/scss/media.scss";
 </style>

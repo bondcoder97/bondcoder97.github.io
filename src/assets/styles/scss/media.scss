@@ -1,0 +1,36 @@
+//mobile
+@media (max-width: 480px) {
+    .home, .learn_roadmap, .repositories_guide, .skills_tracker, .sources_list{
+      padding: 2% 5%;
+    }
+  
+    h3{
+      font-size: 30px;
+      margin-top: 12%;
+      line-height: 1.2;
+  
+      &:first-child{
+        margin-top: 3%;
+      }
+    }
+  
+    p, li{
+      font-size: 18px;
+    }
+  
+    ul{
+      padding-left: 10%;
+    }
+
+    .info{
+      margin-top: 5%;
+    }
+  }
+
+
+//tablet
+@media (max-width: 768px) {
+    .info{
+      margin-top: 2%;
+    }
+}

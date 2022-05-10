@@ -91,4 +91,5 @@ h4 span{
     border-bottom: 1px solid #cb0000;
     color: #cb0000;
 }
+@import "@/assets/styles/scss/media.scss";
 </style>
